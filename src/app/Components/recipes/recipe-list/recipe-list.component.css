@@ -1,0 +1,13 @@
+.top-section {
+  margin-bottom: 8px;
+}
+.main-section {
+  /* background-color: chartreuse; */
+  color: black;
+}
+.clearfix {
+  /* background-color: chartreuse; */
+  border: none !important;
+  margin: 8px 0px;
+  /* padding: 8px;  */
+}

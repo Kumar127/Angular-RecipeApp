@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-app';
+  username = '';
+  ShowText= false;
+  counter = [];
+  PageInfo ='recipe'
+  emptyUsername() {
+    this.username ='';
+  }
+  show() {
+    this.ShowText = true;
+    this.counter.push(new Date());
+  }
+  onNavigate(value) {
+    this.PageInfo = value;
+    
+  }
 }
+
